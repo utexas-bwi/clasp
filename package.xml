@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>clasp</name>
+  <version>3.0.3</version>
+  <description>
+    clasp is an answer set solver for (extended) normal logic programs. It combines the high-level modeling capacities of answer set programming (ASP) with state-of-the-art techniques from the area of Boolean constraint solving. The primary clasp algorithm relies on conflict-driven nogood learning, a technique that proved very successful for satisfiability checking (SAT). Unlike other learning ASP solvers, clasp does not rely on legacy software, such as a SAT solver or any other existing ASP solver. Rather, clasp has been genuinely developed for answer set solving based on conflict-driven nogood learning. clasp can be applied as an ASP solver (on SMODELS format, as output by Gringo), as a SAT solver (on a simplified version of DIMACS/CNF format), or as a PB solver (on OPB format).
+  </description>
+
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
+  <maintainer email="jack.oquin@gmail.com">Jack O'Quin</maintainer>
+  <author>University of Potsdam</author>
+
+  <license>GNU GPLv2</license>
+
+  <url type="repository">https://github.com/utexas-bwi/bwi_planning</url>
+  <url type="bugtracker">https://github.com/utexas-bwi/bwi_planning/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>tbb</build_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <run_depend>tbb</run_depend>
+
+</package>
