@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>clasp</name>
-  <version>3.0.2</version>
+  <version>3.0.3</version>
   <description>
     This ROS package contains the clasp answer set solver for
     (extended) normal logic programs developed at the University of
